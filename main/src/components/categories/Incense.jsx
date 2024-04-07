@@ -1,4 +1,4 @@
-import CategoriesItemIncense from "./CategoriesItemIncense";
+import CategoriesItemIncense from "../categories/CategoriesItemIncense";
 
 function Incense() {
     return (

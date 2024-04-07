@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { items } from "../AllData";
-import "./Incense.css"
+import "./ProductPage.css";
 
-function CategoriesItem() {
+function CategoriesItemIncense() {
     const filteredItems = items.filter((item) => item.category === "incense");
     return (
         <>
@@ -17,7 +17,7 @@ function CategoriesItem() {
                                     </div>
                                     <div className="product-details">
                                         <p>{item.description}</p>
-                                        <p className="item-price">{item.price}$</p>
+                                        <p className="item-price">${item.price}.00</p>
                                     </div>
                                 </Link>
                             </div>
@@ -29,4 +29,4 @@ function CategoriesItem() {
     );
 }
 
-export default CategoriesItem;
+export default CategoriesItemIncense;

@@ -7,14 +7,13 @@ a {
     width: 100%;
   }
 
-
-  .category-container {
-    background-color: black;
-  } 
-
   .container {
     padding: 11rem 0;
   } 
+
+  .container:hover {
+    border-color:black;
+  }
 
   .products-grid {
     display: grid;
@@ -29,6 +28,11 @@ a {
     transition: all 0.15s ease-in;
     cursor: pointer;
   } 
+
+  .product:hover {
+    outline: 2px solid black;
+  }
+
 
   .product-header img {
     width: 100%;
