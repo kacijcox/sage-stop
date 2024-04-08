@@ -8,13 +8,13 @@ const Navbar = () => {
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Shop</a>
+        <a class="nav-link" href="/pages/all">Shop</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Checkout</a>
+        <a class="nav-link" href="/pages/checkout">Checkout</a>
       </li>
     </ul>
   </div>
