@@ -40,7 +40,6 @@ const Intro = () => {
                                 <p className="main-description">Candles</p>
                             </Link>
                         </div>
-
                     </div>
                 </div>
             </div>
