@@ -1,4 +1,4 @@
-import CategoriesItemHerbs from "../categories/CategoriesItemHerbs";
+import CategoriesItemHerbs from "./CategoriesItemHerbs";
 
 function Herbs() {
     return (

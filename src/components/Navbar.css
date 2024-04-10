@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.navbar-brand {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+}
+
+
+.navbar {
+    background-color: lightgray !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+  }

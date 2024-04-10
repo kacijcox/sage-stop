@@ -1,4 +1,4 @@
-import CategoriesItemCandles from "../categories/CategoriesItemCandles";
+import CategoriesItemCandles from "./CategoriesItemCandles";
 
 function Candles() {
     return (

@@ -9,6 +9,7 @@ import Herbs from './components/categories/Herbs';
 import Candles from './components/categories/Candles'
 import Decor from './components/categories/Decor';
 import FrequentlyPurchased from './components/FrequentlyPurchased';
+import All from './components/categories/All';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path="/categories/candles" element={<Candles />} />
         <Route exact path="/categories/decor" element={<Decor />} />
         <Route exact path="/components/FrequentlyPurchased" element={<FrequentlyPurchased />} />
+        <Route exact path="/categories/all" element={<All />} />
       </Routes>
     </Router>
   );

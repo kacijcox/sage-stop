@@ -1,4 +1,4 @@
-import CategoriesItemDecor from "../categories/CategoriesItemDecor";
+import CategoriesItemDecor from "./CategoriesItemDecor";
 
 function Decor() {
     return (
