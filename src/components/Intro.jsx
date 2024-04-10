@@ -1,9 +1,9 @@
 import "./Intro.css";
 import { Link } from "react-router-dom";
-import Intro1 from "/workspaces/sage-stop/main/src/img/home/incense.png";
-import Intro2 from "/workspaces/sage-stop/main/src/img/home/herbs.jpeg";
-import Intro3 from "/workspaces/sage-stop/main/src/img/home/decor.jpeg";
-import Intro4 from "/workspaces/sage-stop/main/src/img/home/candles.png";
+import Intro1 from "/workspaces/sage-stop/src/img/home/incense.png";
+import Intro2 from "/workspaces/sage-stop/src/img/home/herbs.jpeg";
+import Intro3 from "/workspaces/sage-stop/src/img/home/decor.jpeg";
+import Intro4 from "/workspaces/sage-stop/src/img/home/candles.png";
 
 
 const Intro = () => {

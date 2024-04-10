@@ -1,9 +1,9 @@
-import Gonesh1 from "/workspaces/sage-stop/main/src/img/home/incense/gonesh1.jpg";
-import Gonesh2 from "/workspaces/sage-stop/main/src/img/home/incense/gonesh1.jpg";
-import Gonesh3 from "/workspaces/sage-stop/main/src/img/home/incense/gonesh3.jpg";
-import Sage from "/workspaces/sage-stop/main/src/img/home/herbs/sage.png";
-import Smoke from "/workspaces/sage-stop/main/src/img/home/candles/smoke.jpeg";
-import Mandela from "/workspaces/sage-stop/main/src/img/decor/madela.jpeg"
+import Gonesh1 from "/workspaces/sage-stop/src/img/home/incense/gonesh1.jpg";
+import Gonesh2 from "/workspaces/sage-stop/src/img/home/incense/gonesh2.jpg";
+import Gonesh3 from "/workspaces/sage-stop/src/img/home/incense/gonesh3.jpg";
+import Sage from "/workspaces/sage-stop/src/img/home/herbs/sage.png";
+import Smoke from "/workspaces/sage-stop/src/img/home/candles/smoke.jpeg";
+import Mandela from "/workspaces/sage-stop/src/img/decor/madela.jpeg"
 
 export const items = [
     {
