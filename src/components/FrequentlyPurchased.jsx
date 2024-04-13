@@ -1,5 +1,5 @@
 import ProductItem from "./ProductItem";
-import "./FrequentlyPurchased.css";
+import "./ProductItem.css";
 
 function FrequentlyPurchased() {
   return (

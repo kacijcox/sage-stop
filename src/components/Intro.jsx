@@ -1,7 +1,7 @@
 import "./Intro.css";
 import { Link } from "react-router-dom";
 import Intro1 from "../img/home/incense.png";
-import Intro2 from "../img/home/herbs.jpeg";
+import Intro2 from "../img/home/herbs/sage.png";
 import Intro3 from "../img/home/decor.jpeg";
 import Intro4 from "../img/home/candles.png";
 

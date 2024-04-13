@@ -1,10 +1,10 @@
-import ProductItem from "../ProductItem";
-
+import FrequentlyPurchased from "../FrequentlyPurchased";
+import "../FrequentlyPurchased.css";
 
 function All() {
     return(
          <>
-    <ProductItem />
+    <FrequentlyPurchased />
     </>
     );
 }

@@ -1,4 +1,3 @@
-import "./FrequentlyPurchased.css";
 import { items } from "./AllData";
 import { Link } from "react-router-dom";
 

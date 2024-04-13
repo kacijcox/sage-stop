@@ -14,8 +14,9 @@ a {
 }
 
 .frequent-h2 {
+    text-align: center;
     margin-left: 110px;
-    margin-bottom: -90px;
+    margin-bottom: 50px;
     font-size: 2.6rem;
     font-weight: 600;
     font-family: "Roboto Mono", monospace;
