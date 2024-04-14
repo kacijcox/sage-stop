@@ -6,15 +6,17 @@ import Sage2 from "../img/home/herbs/sage2.png";
 import Sage3 from "../img/home/herbs/sage3.jpeg";
 import Sage4 from "../img/home/herbs/sage4.jpeg";
 import Sage5 from "../img/home/herbs/sage5.png";
+import WhiteSage2 from "../img/home/herbs/whitesage2.png";
+import WhiteSage3 from "../img/home/herbs/whitesage3.jpeg";
+import CedarSage2 from "../img/home/herbs/cedarsage2.png";
+import CedarSage3 from "../img/home/herbs/cedarsage3.png";
 import Smoke from "../img/home/candles/smoke.jpeg";
 import Smoke2 from "../img/home/candles/candles3.png";
 import Smoke3 from "../img/home/candles/candles4.jpeg";
 import Candlestick1 from "../img/home/candles/candles2.jpeg";
 import Candlestick2 from "../img/home/candles/candles5.png";
 import Candlestick3 from "../img/home/candles/candles6.jpeg";
-
-
-import Mandela from "../img/decor/madela.jpeg"
+import Mandela from "../img/decor/madela.jpeg";
 
 export const items = [
     {
@@ -32,6 +34,7 @@ export const items = [
         img: Sage,
         description: "White Sage",
         price: 12,
+        otherImgs: [WhiteSage2, WhiteSage3]
     
     },
 
@@ -50,7 +53,8 @@ export const items = [
         category: "decor",
         img: Mandela,
         description: "Mandela",
-        price: 30
+        price: 30,
+        otherImgs: [Mandela, Mandela]
     },
 
     {
@@ -68,6 +72,7 @@ export const items = [
     img: Sage3,
     description: "Cedar Sage",
     price: 15,
+    otherImgs: [CedarSage2, CedarSage3]
 },
 
     {

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Incense from './components/categories/Incense';
 import Herbs from './components/categories/Herbs';
 import Candles from './components/categories/Candles';
@@ -48,6 +49,7 @@ function App() {
           <Route exact path="/categories/candles" element={<Candles />} />
           <Route exact path="/categories/decor" element={<Decor />} />
           <Route exact path="/components/FrequentlyPurchased" element={<FrequentlyPurchased />} />
+          <Route exact path="/components/Footer" element={<Footer />} />
           <Route exact path="/categories/all" element={<All />} />
           <Route exact path="/components/CartItem" element={<CartItem />} />
           <Route exact path="/components/CartWithItems" element={<CartWithItems />} />

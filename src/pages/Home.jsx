@@ -4,6 +4,7 @@ import Intro from '../components/Intro'
 import FrequentlyPurchased from '../components/FrequentlyPurchased';
 import Banner from '../components/Banner';
 import Banner1 from '../img/banner/banner1.jpg';
+import Footer from '../components/Footer';
 
 function Home () {
   return (
@@ -19,6 +20,7 @@ function Home () {
       text="All incense and herbs are ethically grown & harvested"
       img={Banner1}
       />
+      <Footer />
     </div>
   );
 }
