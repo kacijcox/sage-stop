@@ -42,17 +42,11 @@ function Navbar() {
       >
         <IconX onClick={() => setMobileNav(!mobileNav)} className="x-mobile" />
         <div className="mobile-links">
-          <Link onClick={() => setMobileNav(!mobileNav)} to="/categories/all">
-            categories
-          </Link>
-          <Link onClick={() => setMobileNav(!mobileNav)} to="/categories/lamps">
-            lamps
-          </Link>
           <Link
             onClick={() => setMobileNav(!mobileNav)}
-            to="/categories/product/19"
+            to="/categories/all/"
           >
-            product page
+           all products
           </Link>
         </div>
       </div>

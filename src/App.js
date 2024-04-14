@@ -1,10 +1,9 @@
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Categories from './pages/Categories';
 import Incense from './components/categories/Incense';
 import Herbs from './components/categories/Herbs';
 import Candles from './components/categories/Candles';
@@ -40,23 +39,19 @@ function App() {
 
   return (
     <CartContext.Provider value={{ cartItem, addToCart, setCartItem }}>
-      <Router>
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
+
+        <Route path="categories" element={<Categories />}>
+          <Route path="all" element={<All />} />
           <Route exact path="/categories/incense" element={<Incense />} />
           <Route exact path="/categories/herbs" element={<Herbs />} />
           <Route exact path="/categories/candles" element={<Candles />} />
           <Route exact path="/categories/decor" element={<Decor />} />
-          <Route exact path="/components/FrequentlyPurchased" element={<FrequentlyPurchased />} />
-          <Route exact path="/components/Footer" element={<Footer />} />
-          <Route exact path="/categories/all" element={<All />} />
-          <Route exact path="/components/CartItem" element={<CartItem />} />
-          <Route exact path="/components/CartWithItems" element={<CartWithItems />} />
-          <Route exact path="/components/EmptyCart" element={<EmptyCart />} />
-          <Route path="/categories/product/:id" element={<ProductPage />} />
-        </Routes>
-      </Router>
+        </Route>
+        <Route path="/categories/product/:id" element={<ProductPage />} />
+      </Routes>
     </CartContext.Provider>
   );
 };

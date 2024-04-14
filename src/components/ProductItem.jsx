@@ -1,6 +1,7 @@
 import { items } from "./AllData";
 import { Link } from "react-router-dom";
 
+
 function ProductItem() {
   const filteredItems = items.filter((item) => item.id <= 8);
 
