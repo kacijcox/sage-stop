@@ -39,7 +39,6 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
 
-
         <Route path="categories" element={<Categories />}>
           <Route path="all" element={<All />} />
           <Route exact path="/categories/incense" element={<Incense />} />
