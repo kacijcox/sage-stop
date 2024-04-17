@@ -5,6 +5,7 @@ function Decor() {
     return (
         <>
         <CategoriesItemDecor />
+        <br />
         <Footer />
         </>
     );

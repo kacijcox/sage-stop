@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { items } from "../AllData";
 
-function CategoriesItemIncense() {
-    const filteredItems = items.filter((item) => item.category === "incense");
+function CategoriesItemCrystals() {
+    const filteredItems = items.filter((item) => item.category === "crystals");
     return (
         <>
             <div className="category-container">
@@ -28,4 +28,4 @@ function CategoriesItemIncense() {
     );
 }
 
-export default CategoriesItemIncense;
+export default CategoriesItemCrystals;

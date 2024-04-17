@@ -1,11 +1,11 @@
-import FrequentlyPurchased from "../FrequentlyPurchased";
 import Footer from "../Footer";
-import "../FrequentlyPurchased.css";
+import CategoriesItem from "../CategoriesItem";
 
 function All() {
     return(
          <>
-    <FrequentlyPurchased />
+    <CategoriesItem />
+    <br />
     <Footer />
     </>
     );

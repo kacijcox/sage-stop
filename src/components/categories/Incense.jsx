@@ -5,6 +5,7 @@ function Incense() {
     return (
         <>
         <CategoriesItemIncense />
+        <br />
         <Footer />
         </>
     );

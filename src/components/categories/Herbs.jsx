@@ -5,6 +5,7 @@ function Herbs() {
     return (
         <>
         <CategoriesItemHerbs />
+        <br />
         <Footer />
         </>
     );

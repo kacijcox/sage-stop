@@ -17,6 +17,12 @@ import Candlestick1 from "../img/home/candles/candles2.jpeg";
 import Candlestick2 from "../img/home/candles/candles5.png";
 import Candlestick3 from "../img/home/candles/candles6.jpeg";
 import Mandela from "../img/decor/madela.jpeg";
+import Amy1 from '../img/crystals/amy1.png';
+import Amy2 from '../img/crystals/amy2.jpeg';
+import Amy3 from '../img/crystals/amy3.png';
+import Rose from '../img/crystals/rose.png';
+import Rose1 from '../img/crystals/rose1.jpeg';
+import Rose2 from '../img/crystals/rose2.png';
 
 export const items = [
     {
@@ -82,6 +88,24 @@ export const items = [
     description: "Candle Sticks",
     price: 8,
     otherImgs: [Candlestick2, Candlestick3]
-    }
+    },
+
+    {
+        id: 8,
+        category: "crystals",
+        img: Amy1,
+        description: "Amythest",
+        price: 22,
+        otherImgs: [Amy2, Amy3]
+        },
+
+        {
+            id: 9,
+            category: "crystals",
+            img: Rose,
+            description: "Rose Quartz",
+            price: 22,
+            otherImgs: [Rose2, Rose1]
+            }
 ];
 

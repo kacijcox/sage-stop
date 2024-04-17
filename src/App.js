@@ -2,17 +2,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Categories from './pages/Categories';
 import Incense from './components/categories/Incense';
 import Herbs from './components/categories/Herbs';
 import Candles from './components/categories/Candles';
 import Decor from './components/categories/Decor';
-import FrequentlyPurchased from './components/FrequentlyPurchased';
+import Crystals from './components/categories/Crystals';
 import All from './components/categories/All';
-import CartItem from './components/CartItem';
-import CartWithItems from './components/CartWithItems';
-import EmptyCart from './components/EmptyCart';
 import ProductPage, { CartContext } from "./pages/ProductPage";
 
 function App() {
@@ -43,12 +39,14 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
 
+
         <Route path="categories" element={<Categories />}>
           <Route path="all" element={<All />} />
           <Route exact path="/categories/incense" element={<Incense />} />
           <Route exact path="/categories/herbs" element={<Herbs />} />
           <Route exact path="/categories/candles" element={<Candles />} />
           <Route exact path="/categories/decor" element={<Decor />} />
+          <Route exact path="/categories/crystals" element={<Crystals />} />
         </Route>
         <Route path="/categories/product/:id" element={<ProductPage />} />
       </Routes>

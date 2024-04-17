@@ -1,5 +1,6 @@
 import { items } from "./AllData";
 import { Link } from "react-router-dom";
+import "./FrequentlyPurchased.css";
 
 
 function ProductItem() {

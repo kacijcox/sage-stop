@@ -5,6 +5,7 @@ function Candles() {
     return (
         <>
         <CategoriesItemCandles />
+        <br />
         <Footer />
         </>
     );

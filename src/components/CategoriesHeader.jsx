@@ -28,7 +28,7 @@ function CategoriesHeader() {
                 Candles
               </button>
             </Link>
-            <Link to="incese">
+            <Link to="incense">
               <button onClick={() => handleBtnName("incense")}>
                 Incense
               </button>

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { items } from "../AllData";
-import "./ProductPage.css";
 
 function CategoriesItemDecor() {
     const filteredItems = items.filter((item) => item.category === "decor");
